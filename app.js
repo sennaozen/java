@@ -20,4 +20,14 @@ console.log(window); //sitede consoledakai metodları gösteriyor
 // tek yorum satırı
 /*
 çoklu yorum satırı
+birden fazla satırda yorum yapma
+
 */ 
+
+/*
+better comments
+? bilgilendirme
+! uyarı
+TODO yapılacak
+
+*/

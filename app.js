@@ -1,33 +1,19 @@
-//document write ilw çıktı verme
-document.write("merhabaa");
-document.write("<br>merhabaa");//br satır atlatma
-document.write("<h1>merhabaa</h1>");//h1 başlık
-document.write(24);
-
-
-//console.log ile çıktı verme
-console.log("hi");// consolde sitede gözüküyor
-console.clear();//console temizleme
-//debugger;
-
-//alert ile çıktı verme
-alert("uyarı verdi");//kullanıcıya uyarı veriyor window objesi en dış
-
-//console.log(window);//window objesi
-console.log(window); //sitede consoledakai metodları gösteriyor
-
-//yorum satırı
-// tek yorum satırı
-/*
-çoklu yorum satırı
-birden fazla satırda yorum yapma
-
-*/ 
+//var let const
 
 /*
-better comments
-? bilgilendirme
-! uyarı
-TODO yapılacak
-
+------- Scope (kapsam)--------
+    global scope: her yerden erişilir
+    function scope :function içinde tanımlanan değişkenler sadece o fonksiyon içinde erişilebilir
+    block scope :block içinde tanımlanan değişkenler sadece o block içinde erişilebilir ifin içinde
 */
+
+var a = 10; // global scope her yerden erişilebilir
+console.log(a); // 10
+
+function metot() {
+  var b = 20; // function scope sadece bu fonksiyon içinde erişilebilir
+  console.log(b); // 20
+}
+metot();
+
+//console.log(b); // ReferenceError: b is not defined

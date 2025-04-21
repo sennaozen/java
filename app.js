@@ -9,4 +9,6 @@ document.write(24);
 console.log("hi");// consolde sitede gözüküyor
 console.clear();//console temizleme
 
+//alert ile çıktı verme
+alert("uyarı verdi");//kullanıcıya uyarı veriyor window objesi en dış
 

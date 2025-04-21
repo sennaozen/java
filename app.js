@@ -17,3 +17,19 @@ function metot() {
 metot();
 
 //console.log(b); // ReferenceError: b is not defined
+// var let const
+/*
+int falan yok var let const kullanılır
+let sayi1=9;
+*/
+function selamver() {
+    var selam="herkese selam"; //function scope
+    console.log(selam);
+}
+selamver(); 
+
+/*
+!var =FUNCTİON SCOPE blokta da tanımlasan globelde tanımlarsan globel
+!let/const =BLOCK SCOPE aynı değişken isminden sadece bir tane varda aynı kullanılabilir const sabit değer olur değişmez let değişir
+
+*/

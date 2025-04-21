@@ -3,3 +3,10 @@ document.write("merhabaa");
 document.write("<br>merhabaa");//br satır atlatma
 document.write("<h1>merhabaa</h1>");//h1 başlık
 document.write(24);
+
+
+//console.log ile çıktı verme
+console.log("hi");// consolde sitede gözüküyor
+console.clear();//console temizleme
+
+
